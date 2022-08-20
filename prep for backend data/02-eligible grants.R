@@ -37,13 +37,23 @@ qgip_grants$eligibility[!qgip_grants$eligibility %in% ""]
 qgip_grants <- qgip_grants[qgip_grants$eligibility %in% "", ]
 
 
-# Narrow down to just the fields that might be needed
-# Check the structure first
-str(qgip_grants)
-# We want the program_title, purpose, website so we can display information about the program
-qgip_grants <- qgip_grants[, c("program_title", "purpose", "website"
-                               , grep("client_group"
-                                      , names(qgip_grants), value = T))]
+# Transform dataset so eligible participants are in the one var. Also narrow down to eligible fields
+setDT(qgip_grants)
+qgip_grants <- melt(qgip_grants
+                    , id.vars = c("program_title", "purpose", "website")
+                    , measure.vars = c("client_group1", "client_group2", "client_group3"))
+# Check dataset structure after the melt to identify unnecessary rows
+qgip_grants
+# Remove empty rows
+qgip_grants <- qgip_grants[!qgip_grants$value %in% "", ]
+setDF(qgip_grants)
+
+# Drop vars that won't be displayed on site
+head(qgip_grants)
+qgip_grants$variable <- NULL 
+# Give the category a recognisable name
+names(qgip_grants)[names(qgip_grants) %in% "value"] <- "category" 
+
 
 # Add on the skill level. Only 26 used for demo purposes. 
 # Reading through the purpose of the programs they all can broadly be applied to 26
@@ -52,12 +62,4 @@ qgip_grants$skill <- 26
 # Add on the LGA area - the program description and eligibility doesn't specify location. Moreton Bay for Demo purposes
 qgip_grants$lga <- "Moreton Bay (R)"
 
-
-# Transform dataset so eligible participants are in the one var
-setDT(qgip_grants)
-qgip_grants <- melt(qgip_grants
-                    , id.vars = c("program_title", "purpose", "website")
-     , measure.vars = c("client_group1", "client_group2", "client_group3"))
-# 
-qgip_grants
-# 
+ 
