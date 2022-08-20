@@ -10,10 +10,11 @@ library(data.table)
 
 # QGSO place name concordance
 # https://www.qgso.qld.gov.au/geographies-maps/concordances/place-names-concordance-2021
-
+concordance <- read.csv("./data/Place Names Concordance 2021.csv")
 
 # Neighbourhood and community centres
 # https://www.data.qld.gov.au/dataset/neighbourhood-and-community-centres
+neighbourhood_centres <- read.csv("./data/neighbourhood-centres.csv")
 
 
 # DESBT - QLD Gov Investment Portal
