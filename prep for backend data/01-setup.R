@@ -27,7 +27,21 @@ names(qgip_grants) <- tolower(gsub("\\.+", "_", names(qgip_grants)))
 names(qgip_grants) <- gsub("_$", "", names(qgip_grants))
 
 
-# 2016 ABS Census Occupation by Age by Sex
-# https://www.abs.gov.au/census/find-census-data/datapacks?release=2016&product=GCP&geography=LGA&header=S
-# alert for what is in demand
-occupation_age_sex_16 <- read.csv("./data/2016Census_G57B_QLD_LGA.csv")
+# 2016 ABS census Sub-major occupation by LGA
+# Table Builder
+# Skip over the table metadata and extract the structured data
+occupation_lga <- read.csv("./data/table_2022-08-20_21-26-58.csv", skip = 9)
+# Check correct fields have been skipped
+str(occupation_lga)
+# Looks like there are slightly more rows (4112 in import vs 4108 in csv)
+tail(occupation_lga)
+# Info and table source attached. Info about small cells is good to note. May need to remove some
+# counts
+# Remove additional table info - tail shows that count is missing for this
+occupation_lga <- occupation_lga[!is.na(occupation_lga$Count), ]
+
+# Update names for easy reference
+names(occupation_lga) <- tolower(gsub("\\.+", "_", names(occupation_lga)))
+names(occupation_lga) <- tolower(gsub("_$", "", names(occupation_lga)))
+
+# Will update format of data in occupation step

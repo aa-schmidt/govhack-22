@@ -21,8 +21,6 @@ qgip_grants <-
                         "") == 4)
             , ]
 # Drop the columns if they are empty
-# TODO
-# Clean up if time
 all(qgip_grants$client_group4 %in% c(NA, ""))
 all(qgip_grants$client_group5 %in% c(NA, ""))
 all(qgip_grants$client_group6 %in% c(NA, ""))
@@ -61,5 +59,3 @@ qgip_grants$skill <- 26
 
 # Add on the LGA area - the program description and eligibility doesn't specify location. Moreton Bay for Demo purposes
 qgip_grants$lga <- "Moreton Bay (R)"
-
- 
