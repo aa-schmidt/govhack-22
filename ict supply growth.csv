@@ -1,0 +1,80 @@
+"lga","ICT.Professionals_11","ICT.Professionals_16","prop_ict_professionals_11","prop_ict_professionals_16","supply_11","supply_16","supply_growth"
+"Aurukun (S)",0,0,0,0,"Low supply","Low supply",NA
+"Balonne (S)",0,0,0,0,"Low supply","Low supply",NA
+"Banana (S)",5,14,0.000675037127041987,0.00197656360299308,"Low supply","Medium supply",192.808132147395
+"Barcaldine (R)",0,0,0,0,"Low supply","Low supply",NA
+"Barcoo (S)",0,0,0,0,"Low supply","Low supply",NA
+"Blackall-Tambo (R)",0,4,0,0.00437158469945355,"Low supply","High supply",Inf
+"Boulia (S)",0,0,0,0,"Low supply","Low supply",NA
+"Brisbane (C)",13282,14637,0.0250240688510444,0.0260642872787687,"High supply","High supply",4.15687166589976
+"Bulloo (S)",0,0,0,0,"Low supply","Low supply",NA
+"Bundaberg (R)",82,119,0.00245200645894384,0.00355722954593011,"Medium supply","High supply",45.074232286579
+"Burdekin (S)",6,8,0.000760263558033452,0.00103613521564564,"Medium supply","Low supply",36.2863186979234
+"Burke (S)",0,0,0,0,"Low supply","Low supply",NA
+"Cairns (R)",272,304,0.00371935294198083,0.0042708026018179,"High supply","High supply",14.8264945123327
+"Carpentaria (S)",0,0,0,0,"Low supply","Low supply",NA
+"Cassowary Coast (R)",8,18,0.000653487992158144,0.00151630022744503,"Low supply","Medium supply",132.031842304776
+"Central Highlands (R)",23,17,0.0015354830095467,0.0012821479749604,"Medium supply","Medium supply",-16.4987194916005
+"Charters Towers (R)",5,0,0.000994233446013124,0,"Medium supply","Low supply",-100
+"Cherbourg (S)",0,0,0,0,"Low supply","Low supply",NA
+"Cloncurry (S)",6,5,0.00365185636031649,0.00334672021419009,"High supply","High supply",-8.35564480142794
+"Cook (S)",0,0,0,0,"Low supply","Low supply",NA
+"Croydon (S)",0,0,0,0,"Low supply","Low supply",NA
+"Diamantina (S)",0,0,0,0,"Low supply","Low supply",NA
+"Doomadgee (S)",0,0,0,0,"Low supply","Low supply",NA
+"Douglas (S)",NA,18,NA,0.00333024976873265,NA,"Medium supply",NA
+"Etheridge (S)",0,0,0,0,"Low supply","Low supply",NA
+"Flinders (S)",0,0,0,0,"Low supply","Low supply",NA
+"Fraser Coast (R)",105,92,0.00331606872157655,0.00289517575604997,"High supply","Medium supply",-12.6925284385082
+"Gladstone (R)",76,85,0.0027448714244438,0.00319416782533539,"High supply","Medium supply",16.3685772998503
+"Gold Coast (C)",2012,2381,0.00885037499725075,0.00930019998750078,"High supply","High supply",5.08255289058101
+"Goondiwindi (R)",5,9,0.00100321027287319,0.0018796992481203,"Medium supply","Medium supply",87.3684210526316
+"Gympie (R)",43,47,0.00252391853025767,0.00273351169012446,"Medium supply","Medium supply",8.30427596430339
+"Hinchinbrook (S)",4,14,0.000779575131553303,0.0031104199066874,"Medium supply","Medium supply",298.989113530327
+"Hope Vale (S)",0,0,0,0,"Low supply","Low supply",NA
+"Ipswich (C)",708,866,0.00965880410908446,0.0104651303307513,"High supply","High supply",8.34809581559327
+"Isaac (R)",13,26,0.00109806571500971,0.00264361972547026,"Medium supply","Medium supply",140.752414844942
+"Kowanyama (S)",0,0,0,0,"Low supply","Low supply",NA
+"Livingstone (S)",NA,58,NA,0.00382081686429513,NA,"High supply",NA
+"Lockhart River (S)",0,0,0,0,"Low supply","Low supply",NA
+"Lockyer Valley (R)",58,55,0.00402889691580995,0.00354472802268626,"High supply","High supply",-12.0174058369114
+"Logan (C)",1342,1423,0.0107603614583417,0.0109853631422925,"High supply","High supply",2.09102347371777
+"Longreach (R)",3,5,0.00137741046831956,0.00263296471827278,"Medium supply","Medium supply",91.1532385466035
+"Mackay (R)",137,142,0.00243201022509408,0.0027394089050081,"Medium supply","Medium supply",12.6396952094281
+"Mapoon (S)",0,0,0,0,"Low supply","Low supply",NA
+"Maranoa (R)",4,9,0.000606612071580224,0.00143792938169037,"Low supply","Medium supply",137.042658571657
+"Mareeba (S)",NA,9,NA,0.00110646668305877,NA,"Low supply",NA
+"McKinlay (S)",0,0,0,0,"Low supply","Low supply",NA
+"Moreton Bay (R)",2286,2466,0.0133403361344538,0.0132321693030843,"High supply","High supply",-0.810825381604395
+"Mornington (S)",0,0,0,0,"Low supply","Low supply",NA
+"Mount Isa (C)",27,17,0.0026793688597797,0.00190199149697919,"Medium supply","Medium supply",-29.0134506849656
+"Murweh (S)",3,0,0.00135074290859973,0,"Medium supply","Low supply",-100
+"Napranum (S)",0,0,0,0,"Low supply","Low supply",NA
+"Noosa (S)",NA,126,NA,0.00581556355580172,NA,"High supply",NA
+"North Burnett (R)",3,9,0.000689021589343133,0.00212114070233325,"Low supply","Medium supply",207.848220598633
+"Northern Peninsula Area (R)",0,0,0,0,"Low supply","Low supply",NA
+"Palm Island (S)",0,0,0,0,"Low supply","Low supply",NA
+"Paroo (S)",0,0,0,0,"Low supply","Low supply",NA
+"Pormpuraaw (S)",0,0,0,0,"Low supply","Low supply",NA
+"Quilpie (S)",3,0,0.0056710775047259,0,"High supply","Low supply",-100
+"Redland (C)",801,869,0.011978465679677,0.0125694283730618,"High supply","High supply",4.93354248522372
+"Richmond (S)",0,0,0,0,"Low supply","Low supply",NA
+"Rockhampton (R)",225,167,0.00460442843695003,0.00493309307889995,"High supply","High supply",7.13801173045553
+"Scenic Rim (R)",89,102,0.00559959733232666,0.00611364181251498,"High supply","High supply",9.18002580686873
+"Somerset (R)",33,40,0.00383186251741756,0.00439029744265174,"High supply","High supply",14.573459321566
+"South Burnett (R)",23,21,0.00196162046908316,0.00183502271932891,"Medium supply","Medium supply",-6.45373311247208
+"Southern Downs (R)",29,23,0.00205338809034908,0.00166017034791396,"Medium supply","Medium supply",-19.1497040565902
+"Sunshine Coast (R)",823,952,0.00619113531730509,0.00745538126600518,"High supply","High supply",20.4202603223088
+"Tablelands (R)",40,22,0.00228977045051234,0.00231359764433694,"Medium supply","Medium supply",1.04059312230517
+"Toowoomba (R)",331,371,0.00488625795308602,0.00527865913521051,"High supply","High supply",8.03070951005888
+"Torres (S)",3,0,0.00234192037470726,0,"Medium supply","Low supply",-100
+"Torres Strait Island (R)",0,0,0,0,"Low supply","Low supply",NA
+"Total",23407,26023,0.0117121318411669,0.012398954453151,"High supply","High supply",5.86419809218618
+"Townsville (C)",419,433,0.00490448543871149,0.00508186139311073,"High supply","High supply",3.61660681055755
+"Weipa (T)",3,0,0.00166759310728182,0,"Medium supply","Low supply",-100
+"Western Downs (R)",17,16,0.00118906064209275,0.00112763408274015,"Medium supply","Medium supply",-5.1659736415533
+"Whitsunday (R)",32,23,0.00210664911125741,0.00148963730569948,"Medium supply","Medium supply",-29.2887791450777
+"Winton (S)",0,0,0,0,"Low supply","Low supply",NA
+"Woorabinda (S)",0,0,0,0,"Low supply","Low supply",NA
+"Wujal Wujal (S)",0,0,0,0,"Low supply","Low supply",NA
+"Yarrabah (S)",0,0,0,0,"Low supply","Low supply",NA

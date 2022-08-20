@@ -45,3 +45,19 @@ names(occupation_lga) <- tolower(gsub("\\.+", "_", names(occupation_lga)))
 names(occupation_lga) <- tolower(gsub("_$", "", names(occupation_lga)))
 
 # Will update format of data in occupation step
+
+
+# 2011 ABS census sub-major occupation by LGA
+# Table builder
+occupation_11_lga <- read.csv("./data/table_2022-08-21_00-21-14.csv", skip = 9)
+# Check correct fields have been skipped
+str(occupation_11_lga)
+# Can remove LGA row. Check for table metadata
+tail(occupation_11_lga)
+# Info and table source attached. Info about small cells is good to note. May need to remove some
+# counts
+# Remove additional table info - tail and str show that 2:76 is data range
+occupation_11_lga <- occupation_11_lga[2:76, ]
+
+# Update names for easy reference
+names(occupation_11_lga)[names(occupation_11_lga) %in% "OCCP...2.Digit.Level"] <- "lga"
