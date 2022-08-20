@@ -11,11 +11,15 @@ data <- merge(occupation_lga[, c("lga_ur", "supply")], qgip_grants, by.x = "lga_
 
 
 # Combine with location area ----
+# Add in the linked neighbourhood centres
+neighbourhood_centres <- read.csv("./data/neighborhood_centresv2.csv")
 
+# Add neighbourhood centres to combined data
+data2 <- merge(neighbourhood_centres, data, by.x = "LGA", by.y = "lga_ur", all = T)
 
 
 # Export for demo website ----
-write.csv(data, "./demo data.csv", row.names = F)
+write.csv(data2, "./demo data.csv", row.names = F)
 
 
 # Export for graphs ----
